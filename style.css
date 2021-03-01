@@ -1,0 +1,36 @@
+body{
+    margin: 0rem !important;
+    padding: 0rem !important;
+}
+header{
+    text-align: center;
+    background-color:burlywood;
+    margin: 0;
+}
+
+h1,h3{
+    margin: 0;
+    padding: 0.25em;
+}
+nav>ul{
+    list-style-type: none;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0.025rem;
+    margin: 0;
+}
+
+li{
+    padding: 0.50em;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* #aboutMe{
+    width: 0.5em;
+} */

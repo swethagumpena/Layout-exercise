@@ -2,16 +2,18 @@ body{
     margin: 0rem !important;
     padding: 0rem !important;
 }
-header{
+header {
+    height: 125px;
+    background-color:aquamarine;
     text-align: center;
-    background-color:burlywood;
     margin: 0;
+    padding: 0.025rem;
 }
 
-h1,h3{
-    margin: 0;
-    padding: 0.25em;
+header h3{
+    font-style: italic;
 }
+
 nav>ul{
     list-style-type: none;
     background-color:black;
@@ -24,13 +26,48 @@ nav>ul{
 
 li{
     padding: 0.50em;
+    margin-left: 0.50em;
 }
 
 main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-/* #aboutMe{
-    width: 0.5em;
-} */
+.column-left{
+    padding: 1rem;
+    width: 20%;
+    background-color:lightyellow;
+}
+
+.column-left img{
+    width: 80%;
+    align-self: center;
+}
+.column-right{
+    padding: 1rem;
+    width:70%
+}
+
+.content{
+    display: flex;
+    justify-content: row;
+}
+
+.content img{
+    width: 30%;
+}
+
+.content p{
+    width: 70%;
+    padding: 1rem;
+    margin: 0;
+}
+
+footer>ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    background-color:lightgrey;
+    margin: 0;
+}
